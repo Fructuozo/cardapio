@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor0: #fae08267;
+    --cor1: #f7db7867;
+    --cor3: #995000;
+    --cor4: #2d2c2a;
+}
+
+
+body{
+   /*background-color: var(--cor0);*/
+    background-image: url(img/cafe2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.back{
+   /* background-image: url(img/wallpapelcafe.jpg);
+    padding: 14px; */
+    
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    text-align: center;
+    padding-bottom: 2vh;
+    padding: 35px;
+    /*background-color: transparent;
+    backdrop-filter: blur(2px);
+    border: 6px solid var(--cor3);
+    border-radius: 20px 20px 0px 0px;*/
+}
+
+h1, h2, h3, .price{
+    font-family: 'Roboto serif', serif;
+    text-transform: uppercase;
+    color: var(--cor4);
+}
+
+header h1{
+    margin-bottom: 4px;
+    font-size: 40px;
+    line-height: 33px;
+}
+
+header p{
+    font-weight: bold;
+}
+
+header h1 span{
+    color: var(--cor3);
+    
+}
+
+header, 
+section{
+    max-width: 300px;
+    margin: 0 auto;
+    background: rgba(170, 170, 170, 0.45);
+    border: 1px solid rgba(170, 170, 170, 0.33);
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+}
+
+section{
+   
+    padding: 25px;
+    max-width: 380px;
+    background: rgba(170, 170, 170, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    border: 1px solid rgba(170, 170, 170, 0.33);
+    
+}
+
+section h2{
+    background-color: #d6a71982;
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: -1.5px 2px 0 #d5a30b82, -2.5px 3.5px 0 #333;
+}
+
+ul li{
+    margin-bottom: 16px;
+    display: flex;
+}
+
+li .details{
+    max-width: 240px;
+}
+
+.details h3{
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 12px;
+}
+
+.details{
+    color: rgba(0, 0, 0, 0.6);
+}
